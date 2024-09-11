@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the innovative projects and designs crafted by a skilled Backend developer. From strong foundation in server-side programming and database management to seamless user experiences, discover a showcase of creativity, proficiency, and expertise in Software development.">
+    <meta property="og:title" content="Portfolio of Shivam Jha">
+    <meta property="og:description"
+        content="I am a skilled Backend Developer with a strong foundation in server-side programming and database management. With a passion for building robust, scalable, and efficient backend systems, I specialize in creating APIs, managing databases, and ensuring seamless integration between front-end and back-end technologies.">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./script.js" defer></script>
+
+    <title>Shivam Jha's Portfolio</title>
+</head>
+
+<body>
+    <!-- For navbar -->
+    <section class="header" data-aos="fade-down">
+        <div class="container">
+            <div class="logo">
+                <h2 class="logo-name">Shivam Jha.</h2>
+            </div>
+            <div class="items-holder">
+                <div class="bx bx-menu menu"></div>
+                <div class="bx bxs-x-circle close"></div>
+                <div class="items">
+                    <a href="#home" class="navigation">Home</a>
+                    <a href="#about" class="navigation">About</a>
+                    <a href="#services" class="navigation">Skills</a>
+                    <a href="#projects" class="navigation">Projects</a>
+                    <a href="#contact" class="navigation">Contact</a>
+                </div>
+                <div class="bx bx-moon" id="dark-moon"></div>
+                <div class="bx bx-sun" id="sun"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home">
+        <div class="container-home" data-aos="slide-right">
+            <div class="text-container">
+                <p class="greet">Hello, I am</p>
+                <div class="name-holder">
+                    <span id="name-animation" class="last-name"></span>
+                </div>
+                <p class="desc">I’m Shivam, a Backend Developer with a B.Tech from IIIT Delhi. At Mantle Labs, I work
+                    with AWS services, Docker, and Runpod GPU. I’ve also developed backend solutions at Goldman Sachs
+                    and hold an Expert rating on Codeforces. Currently, I’m exploring the DevOps domain.
+                    <br>
+                    "A good developer is not the one who writes the most code, but the one who solves the problem with
+                    the least."
+                </p>
+                <div class="social">
+                    <div class="insta-holder icon-holder">
+                        <a href="https://codeforces.com/profile/jay_shreee_raam" target="_blank" class="social-link"><i
+                                class="fa-solid fa-chart-simple social-icon codeforces"></i></a>
+                    </div>
+                    <div class="face-holder icon-holder">
+                        <a href="https://www.linkedin.com/in/shivam-jha-085397194/" target="_blank" class="social-link">
+                            <i class='social-icon bx bxl-linkedin-square'></i>
+                        </a>
+                    </div>
+                    <div class="github-holder icon-holder">
+                        <a href="https://github.com/shivam682" target="_blank" class="social-link">
+                            <i class="social-icon bx bxl-github"></i>
+                        </a>
+                    </div>
+                    <div class="twit-holder icon-holder">
+                        <a href="https://leetcode.com/u/shivam20332/" target="_blank" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M13.483 0a1.37 1.37 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.3 5.3 0 0 0-1.209 2.104a5 5 0 0 0-.125.513a5.5 5.5 0 0 0 .062 2.362a6 6 0 0 0 .349 1.017a5.9 5.9 0 0 0 1.271 1.818l4.277 4.193l.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.38 1.38 0 0 0-1.951-.003l-2.396 2.392a3.02 3.02 0 0 1-4.205.038l-.02-.019l-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.7 2.7 0 0 1 .066-.523a2.55 2.55 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0m-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382a1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382a1.38 1.38 0 0 0-1.38-1.382z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <button class="download-cv"><a href="./shivam-resume.pdf" download="CV Downloaded" class="cv">Download
+                        CV</a></button>
+
+            </div>
+        </div>
+        <div class="design" data-aos="slide-left">
+            <div class="holder-gif">
+                <img src="./images/temp.gif" alt="new" class="new-gif">
+            </div>
+        </div>
+    </section>
+
+    <!-- fOR RESPONSIVE ANIMATION -->
+
+    <!-- About me section -->
+    <section id="about">
+        <div class="aboutme-holder">
+            <div class="picture-traingle" data-aos="fade-right" data-aos-offset="100">
+                <img src="./images/put.jpg" alt="me" class="aboutme-picture">
+            </div>
+            <div class="about-text-holder" data-aos="fade-left" data-aos-offset="100">
+                <div class="name-about-holder">
+                    <span class="about-name">About</span>
+                    <span class="about-me">Me</span>
+                </div>
+                <div class="about-me-desc">Hi I am open to any new backend role opportunity!</div>
+                <div class="about-me-desc2">I’m Shivam, a Backend Developer with a B.Tech in Computer Science and
+                    Applied Mathematics from IIIT Delhi. At Mantle Labs, I integrate bioinformatics tools using AWS
+                    services, Docker, and Runpod GPU. I previously developed backend solutions at Goldman Sachs and hold
+                    an Expert rating on Codeforces. Currently, I am exploring the DevOps domain, expanding my expertise
+                    in infrastructure management and automation. My skills include data structures, algorithms, and
+                    machine learning, supported by competitive programming achievements and leadership experience.
+                </div>
+                <button class="download-cv about-me-button"><a href="./shivam-resume.pdf" download="download"
+                        class="cv read">Read More</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- for project section -->
+    <section id="projects">
+        <div class="project-container">
+            <div class="head-service .proj-head">
+                <span class="first-ser pl">Latest</span>
+                <span class="second-ser plp">Projects</span>
+            </div>
+            <div class="projects-holder">
+                <div class="first-pj-holder" data-aos="zoom-in">
+                    <a href="https://github.com/shivam682/Blogging-Application-backend" target="_blank" class="gym">
+                        <div class="first-pj">
+                            <img src="./images/1_iWFjsA5X1fUI1sxE0ZZfmg.gif" alt="gym" class="first-pj-img">
+                            <div class="hover-pj-text">
+                                <h2 class="name-pj">Blog App</h2>
+                                <p class="desc-name-pj">Blogging  with backend code.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+
+                <div class="first-pj-holder" data-aos="zoom-in">
+                    <a href="https://github.com/shivam682/RailwayReservation" target="_blank" class="gym">
+                        <div class="first-pj">
+                            <img src="./images/p2.png" alt="gym" class="first-pj-img">
+                            <div class="hover-pj-text">
+                                <h2 class="name-pj">Rail Reservation</h2>
+                                <p class="desc-name-pj">Complete Railway Reservation App with backend code.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="first-pj-holder" data-aos="zoom-in">
+                    <a href="https://github.com/shivam682/Fetal-Health-Prediction-ML-Project-" target="_blank" class="gym">
+                        <div class="first-pj">
+                            <img src="./images/fetal_health.png" alt="gym" class="first-pj-img">
+                            <div class="hover-pj-text">
+                                <h2 class="name-pj">Fetal Health</h2>
+                                <p class="desc-name-pj">Fetal Health prediction using ML-models.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="first-pj-holder" data-aos="zoom-in">
+                    <a href="https://github.com/shivam682/Multi-User-Chat-Application" target="_blank" class="gym">
+                        <div class="first-pj">
+                            <img src="./images/p5.png" alt="gym" class="first-pj-img">
+                            <div class="hover-pj-text">
+                                <h2 class="name-pj">Multi Chat</h2>
+                                <p class="desc-name-pj">Basic Multi Chat App with backend code.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="first-pj-holder" data-aos="zoom-in">
+                    <a href="https://github.com/shivam682/IIIT_Delhi_query_form" target="_blank" class="gym">
+                        <div class="first-pj">
+                            <img src="./images/p6.png" alt="gym" class="first-pj-img">
+                            <div class="hover-pj-text">
+                                <h2 class="name-pj">Query System</h2>
+                                <p class="desc-name-pj">IIIT Delhi admission query system.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- My Services section -->
+    <section id="services">
+        <div class="service-holder">
+            <div class="head-service">
+                <span class="first-ser">My</span>
+                <span class="second-ser">Skills</span>
+            </div>
+            <div class="services-container">
+                <span class="skill-new">C++</span>
+                <span class="skill-new">C</span>
+                <span class="skill-new">Java</span>
+                <span class="skill-new">Python</span>
+                <span class="skill-new">SQL</span>
+                <span class="skill-new">Linux</span>
+                <span class="skill-new">HTML</span>
+                <span class="skill-new">AWS EC2</span>
+                <span class="skill-new">AWS Lambda</span>
+                <span class="skill-new">AWS S3</span>
+                <span class="skill-new">AWS ECR</span>
+                <span class="skill-new">AWS SQS</span>
+                <span class="skill-new">AWS SES</span>
+                <span class="skill-new">Docker</span>
+                <span class="skill-new">Kubernetes</span>
+                <span class="skill-new">Github CI/CD</span>
+                <span class="skill-new">Spring Boot</span>
+                <span class="skill-new">Apache Kafka</span>
+                <span class="skill-new">TCP/IP</span>
+                <span class="skill-new">Advanced Programming (OOPs)</span>
+                <span class="skill-new">Data Structure and Algorithm</span>
+                <span class="skill-new">Analysis and Design of Algorithm</span>
+                <span class="skill-new">Modern Algorithm Design</span>
+                <span class="skill-new">Operating System</span>
+                <span class="skill-new">Database Management Systems</span>
+                <span class="skill-new">Machine Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- for contact -->
+    <section id="contact" data-aos="flip-up">
+        <div class="head-service .proj-head">
+            <span class="first-ser pl cl">Contact</span>
+            <span class="second-ser plp cm">Me</span>
+        </div>
+        <div class="contact-us">
+            <form class="inner-contact">
+                
+                <input type="text" id="name" placeholder="Enter Your Name" class="fillit" name="name" required>
+                <input type="email" id="email" placeholder="Enter Your Email" class="fillit" name="email" required>
+                <textarea id="description" rows="5" placeholder="Your Message" class="fillit" required name="message"></textarea>
+            </form>
+            <button type="submit" class="nhihounga">Send Message</button>
+        </div>
+    </section>
+
+    <!-- for footer  -->
+    <footer>
+        <h4 class="foot-line">All Copyright &copy; reserved 2024</h4>
+        <h4 class="foot-line2">Created by Shivam Jha</h4>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="https://kit.fontawesome.com/521a09b333.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 2000,
+        });
+
+        var typed = new Typed('#name-animation', {
+            strings: ['Shivam Jha', 'Software Devloper'],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true,
+        });
+
+    </script>
+</body>
+
+</html>
